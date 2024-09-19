@@ -125,10 +125,8 @@
 		</p>
 	      </td>
 	    </tr>
-<!-- 	<p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>. 
-	</p> -->
-		<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+
+	<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
 	      <td style="padding:20px;width:25%;vertical-align:middle"> 
 		<div class="one">
 		  <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
@@ -173,10 +171,9 @@
 		</p>
 	      </td>
 	    </tr>
-<!-- 	<p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>. 
-	</p> -->
-		<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+
+		 
+	<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
 	      <td style="padding:20px;width:25%;vertical-align:middle"> 
 		<div class="one">
 		  <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
@@ -218,6 +215,48 @@
 		<p></p>
 		<p>
 		Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
+		</p>
+	      </td>
+	    </tr>
+
+	<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+	      <td style="padding:20px;width:25%;vertical-align:middle"> 
+		<div class="one">
+		  <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
+		  <source src="images/nerfcasting.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video></div>
+		  <img src='images/nerfcasting.jpg' width=100%>
+		</div>
+		<script type="text/javascript">
+		  function nerfcasting_start() {
+		    document.getElementById('nerfcasting_image').style.opacity = "1";
+		  }
+	
+		  function nerfcasting_stop() {
+		    document.getElementById('nerfcasting_image').style.opacity = "0";
+		  }
+		  nerfcasting_stop()
+		</script>
+	      </td>
+	      <td style="padding:20px;width:75%;vertical-align:middle">
+		<a href="http://www.tpcap.net">
+		  <span class="papertitle">Trajectory Planning Competition of Automated Parking (TPCAP)</span>
+		</a>
+		<br>
+		25th lEEE International Conference on Intelligent Transportation Systems (ITSC), 2022	
+		<br>
+		
+		<p></p>
+		<p>
+		Achieved 2nd place (2 / 63) in the 25th lEEE International Conference on Intelligent Transportation Systems (ITSC) 2022 TPCAP finals.
+		<br>
+		Implemented two-stage strategy to solve complex environments: Got a coarse initial guess via sampling / search method,
+		followed by refinement using the Interior Point Method to achieve a kinematically feasible, collision-free, energy-efficient, and passenger-comfortable trajectory
+		Preprocessed the environments by segmentation and clustering to reduce obstacle difficulty for avoidance.
+		<br>
+		Implemented temporal-spatial decoupling algorithm for the extremely tiny slot:
+			Determined precise boundaries of the parking space and represented the obstacles-avoidance constraints with a safe driving region.
 		</p>
 	      </td>
 	    </tr>
