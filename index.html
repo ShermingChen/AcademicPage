@@ -158,6 +158,10 @@
 		A lane smooth algorithm based on the ADMM solver to address drift in subsequent trajectory planning caused by unsmooth map reference lines, 
 			solving a horizon length of 50 (150-200m) within 3ms, 5x faster than other mainstream algorithms.
 		</p>
+		 <br>
+			• Applied second-order Taylor expansion to curvature to construct constraints for a linear model.
+		  <br>
+			• Smooth the reference line by the ADMM solver with lightweight constraints.    
 	      </td>
 	    </tr>
 
@@ -192,7 +196,7 @@
 		<em>Pre-research Project</em>
 		<br>
 		<a href="https://nerf-casting.github.io/">project page</a>
-		<p></p>
+<!-- 		<p></p> -->
 		<p>
 			A global optimal solver to generate an optimal trajectory by integrating the decision-making and planning processes.
 		</p>
