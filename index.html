@@ -148,27 +148,15 @@
 		</script>
 	      </td>
 	      <td style="padding:20px;width:75%;vertical-align:middle">
-		<a href="https://nerf-casting.github.io/">
-		  <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
+		<a>
+		  <span class="papertitle">Reference Line Smoothing via ADMM Solver</span>
 		</a>
 		<br>
-					
-		<a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-					<a href="https://phogzone.com/">Peter Hedman</a>,
-					<a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
-					<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-					<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-					<strong>Jonathan T. Barron</strong>
-		<br>
-		<em>SIGGRAPH Asia</em>, 2024
-		<br>
 		<a href="https://nerf-casting.github.io/">project page</a>
-		/
-		<a href="https://arxiv.org/abs/2405.14871">arXiv</a>
 		<p></p>
 		<p>
-		Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
+		A lane smooth algorithm based on the ADMM solver to address drift in subsequent trajectory planning caused by unsmooth map reference lines, 
+			solving a horizon length of 50 (150-200m) within 3ms, 5x faster than other mainstream algorithms.
 		</p>
 	      </td>
 	    </tr>
@@ -195,28 +183,24 @@
 		</script>
 	      </td>
 	      <td style="padding:20px;width:75%;vertical-align:middle">
-		<a href="https://nerf-casting.github.io/">
-		  <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
+		<a>
+		  <span class="papertitle">Global Optimization Solver via Information-Geometric Optimization (IGO) algorithms</span>
 		</a>
 		<br>
-					
-		<a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-					<a href="https://phogzone.com/">Peter Hedman</a>,
-					<a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
-					<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-					<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-					<strong>Jonathan T. Barron</strong>
+
 		<br>
-		<em>SIGGRAPH Asia</em>, 2024
+		<em>Pre-research Project</em>
 		<br>
 		<a href="https://nerf-casting.github.io/">project page</a>
-		/
-		<a href="https://arxiv.org/abs/2405.14871">arXiv</a>
 		<p></p>
 		<p>
-		Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world scenes.
+			A global optimal solver to generate an optimal trajectory by integrating the decision-making and planning processes.
 		</p>
+		      <br>
+			• Implemented a global optimization parameter solver based on the IGO framework in a single Gaussian distribution
+		      <br>
+			• Developed a simulation platform to evaluate the trajectory score, utilizing Bezier curves to restore sampled control
+			vectors to trajectories, and calculate gradients based on particles with high scores and rankings
 	      </td>
 	    </tr>
 
