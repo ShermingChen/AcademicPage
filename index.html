@@ -129,7 +129,7 @@
 	<tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
 	      <td style="padding:20px;width:25%;vertical-align:middle"> 
 		<div class="one">
-		  <div class="two" id='admm'><video  width=150% muted autoplay loop>
+		  <div class="two" id='admm_'><video  width=150% muted autoplay loop>
 		  <source src="images/admm.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		  </video></div>
@@ -137,11 +137,11 @@
 		</div>
 		<script type="text/javascript">
 		  function nerfcasting_start() {
-		    document.getElementById('admm').style.opacity = "1";
+		    document.getElementById('admm_').style.opacity = "1";
 		  }
 	
 		  function nerfcasting_stop() {
-		    document.getElementById('admm').style.opacity = "0";
+		    document.getElementById('admm_').style.opacity = "0";
 		  }
 		  nerfcasting_stop()
 		</script>
